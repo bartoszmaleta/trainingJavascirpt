@@ -2,7 +2,7 @@ window.onload = function () {
     var draggable = document.getElementById("draggable");
     var dropzones = document.getElementsByClassName("dropzone");
 
-    draggable.addEventListener("dragstart", function() {
+    draggable.addEventListener("dragstart", function () {
         for (let i = 0; i < dropzones.length; i++) {
             dropzones[i].classList.add("active");
         }
@@ -20,7 +20,7 @@ window.onload = function () {
     });
 
     for (let i = 0; i < dropzones.length; i++) {
-        dropzones[i].addEventListener("dragenter", function() {
+        dropzones[i].addEventListener("dragenter", function () {
             dropzones[i].classList.add("over");
         });
 
@@ -42,3 +42,4 @@ window.onload = function () {
         });
     }
 };
+
