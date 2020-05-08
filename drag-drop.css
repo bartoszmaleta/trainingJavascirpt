@@ -1,0 +1,29 @@
+#draggable {
+    background-color: chartreuse;
+    border: 1em solid aqua;
+    width: 5em;
+    padding: 1em;
+}
+
+.dropzone { 
+    width: 5em;
+    padding: 1em;
+    margin: 2em;
+    background: red;
+    border: 1em solid yellow;
+}
+
+/* Drop zone highlights */
+.active {
+    background-color: blueviolet;
+    border: 1em solid black;
+}
+
+.over {
+    background-color: coral;
+    border: 1em solid green;
+}
+
+#draggable, .dropzone {
+    transition: all 0.7s;
+}
